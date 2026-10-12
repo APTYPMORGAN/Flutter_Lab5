@@ -15,9 +15,23 @@
 
 ![Скриншот_приложения](img/done_app.png)
 
+#### Структура проекта
+* lib/
+* * dice_roller.dart - выбор случайной цитаты
+* * gradient_container.dart - градиентовый фон
+* * main.dart - основной код
+
 #### Как запустить:
 
-1. git clone https://github.com/APTYPMORGAN/Flutter_Widgets
+1. git clone https://github.com/APTYPMORGAN/Flutter_Lab5
 2. cd my_app_kuriev
 3. flutter pub get
 4. flutter run -d chrome
+
+#### Что изучили:
+1. Научился создавать собственные виджеты
+2. Разобрался как задавать свои цвета и менять их в градиентовом фоне
+3. Научился использовать StatefulWidget и SetState()
+4. Разобрался с работой Random
+5. Поработал с вставкой изображения в виджеты
+

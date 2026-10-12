@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_app_kuriev/dice_roller.dart';
-import 'package:my_app_kuriev/styled_text.dart';
 
 const startAlignment = Alignment.topCenter;
 const endAlignment = Alignment.bottomCenter;
@@ -16,7 +15,7 @@ class GradientContainer extends StatelessWidget {
     this.color3, {
     super.key,
   });
-  
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -27,9 +26,7 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: Center(
-        child: DiceRoller()
-      ),
+      child: Center(child: DiceRoller()),
     );
   }
 }
