@@ -1,17 +1,23 @@
-# my_app_kuriev
+# Цитата дня. Приложение, где можно посмотреть случайную цитату дня знаменитых людей
 
-A new Flutter project.
+**ФИО: Куриев Артур Майрбекович**
+**Группа: ИСП-241**
+**Дата: 12.10.2026**
 
-## Getting Started
+#### Стек и версии
 
-This project is a starting point for a Flutter application.
+- Flutter 3.47.1
+- Dart
+- Платформа: Web (Chrome)
+- IDE: VS Code
 
-A few resources to get you started if this is your first Flutter project:
+#### Скриншот приложения
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Скриншот_приложения](img/done_app.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Как запустить:
+
+1. git clone https://github.com/APTYPMORGAN/Flutter_Widgets
+2. cd my_app_kuriev
+3. flutter pub get
+4. flutter run -d chrome
